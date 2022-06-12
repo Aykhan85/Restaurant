@@ -7,10 +7,10 @@ import SelectBox from "./SelectBox";
 export default function Header() {
 
     return (
-        <header>
+        <header className={style.header}>
             <nav className={style.nav}>
                 <NavLink href='/'>
-                    <h1>Foody <span className={style.punkt}>.</span></h1>
+                    <h1 className={style.logo}>Foody <span className={style.punkt}>.</span></h1>
                 </NavLink>
                 <ul className={style.ul}>
                     <li className={style.li}><NavLink href="/" exact>Home</NavLink></li>

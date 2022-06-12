@@ -27,6 +27,9 @@ export default function SelectBox() {
                 <span className={style.shoppingCard}><MdShoppingCart size='20px' /></span>
                 <span className={style.basketNumber}>8</span>
             </button>
+            <button className={style.auth}>
+                <span>MK</span>
+            </button>
         </div>
     )
 }
